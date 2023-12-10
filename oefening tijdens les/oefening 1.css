@@ -1,0 +1,13 @@
+*{
+    font-family: Verdana, sans-serif;
+}
+table{
+    width: 600px;
+    table-layout: fixed;
+    border: 1px solid #0000ff;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+table th, table td{
+    border: 1px solid #0000ff;
+}

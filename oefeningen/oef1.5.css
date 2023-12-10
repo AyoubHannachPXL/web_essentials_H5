@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif, Arial;
+    color: #4b0000;
+}
+body{
+    background-image: url("assets_h5/assets/hout.jpg") ;
+}
+header{
+    width: 500px;
+    padding: 15px;
+    background-image: url("assets_h5/assets/witte-marmer.jpg");
+    border: 3px solid #4b0000;
+    margin-bottom: 20px;
+
+}
+table {
+    width: 550px;
+    border: 3px solid #4b0000;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #4b0000;
+}
+tr:nth-child(odd) td:nth-child(even){
+    background-image: url("assets_h5/assets/zwarte-marmer.jpg");
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-image: url("assets_h5/assets/zwarte-marmer.jpg");
+}
+
+tr:nth-child(odd) td:nth-child(odd){
+    background-image: url("assets_h5/assets/witte-marmer.jpg");
+}
+tr:nth-child(even) td:nth-child(2n+2){
+    background-image: url("assets_h5/assets/witte-marmer.jpg");
+}
+td:nth-child(2){
+    background-image: url("assets_h5/assets/pionZwart.png");
+}

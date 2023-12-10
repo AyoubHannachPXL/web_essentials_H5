@@ -1,0 +1,14 @@
+*{
+    font-family: Verdana, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #000000;
+    width: 550px;
+    table-layout: fixed; /*zodat de kolommen even breed zijn*/
+    caption-side: bottom;
+}
+table th, table td{
+    border: 1px solid #000000;
+    padding: 5px;
+}
